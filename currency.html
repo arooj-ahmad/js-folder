@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form>
+            <p>Enter amount</p>
+            <input type="text" value="100">
+
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="from-to">
+                        <img src="https://flagsapi.com/BE/flat/64.png" alt="Country Flag">
+                        <select id="select-from">
+                            <option value="USD">USA</option>
+                            <option value="INR">INR</option>
+                            <option value="AED">AED</option>
+                            <option value="AZN">AZN</option>
+                            <option value="BGN">BGN</option>
+                            <option value="BIF">BIF</option>
+                            <option value="BRL">BRL</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-right-left"></i>
+
+                <div class="to">
+                    <p>To</p>
+                    <div class="from-to">
+                        <img src="https://flagsapi.com/BE/flat/64.png" alt="Country Flag">
+                        <select id="select-to">
+                            <option value="USD">USA</option>
+                            <option value="INR">INR</option>
+                            <option value="AED">AED</option>
+                            <option value="AZN">AZN</option>
+                            <option value="BGN">BGN</option>
+                            <option value="BIF">BIF</option>
+                            <option value="BRL">BRL</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg">1 USD = 120 PKR</div>
+            <button type="button">GET EXCHANGE RATE</button>
+        </form>
+    </div>
+
+    <script src="code.js"></script>
+<script src="currency.js"></script>
+
+</body>
+
+
+
+</html>

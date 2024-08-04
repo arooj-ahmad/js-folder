@@ -1,0 +1,281 @@
+/* .classname{
+
+    color: blueviolet;
+    height : 100px;
+    width: 100px;
+    background-color: beige;
+    color: black;
+    border: 20px solid lightcoral;
+}
+
+/* body{
+
+    background-color:azure;
+    
+}
+marquee{
+    background-color:brown;
+    color: white;
+}
+
+.paraclass{
+    background-color: aquamarine;
+    color: black;
+
+    
+}
+.content{
+    background-color: green;
+    color:white;
+    
+
+}
+.div1{
+
+    background-color: darkcyan;
+    color: floralwhite;
+    height: 100px;
+    width: 100px;
+    border: 20px solid black;
+    
+}
+
+#btn{
+
+    color: black;
+    background-color: rgb(80, 141, 188);
+    border: 2px solid black;
+
+}
+
+.dark{
+
+    background-color: black;
+}
+.light{
+
+    background-color: aqua;
+} 
+.form{
+    background-color: antiquewhite;
+} 
+
+
+/* tic tac q*/
+/* body{
+
+    background-color: #7D5BA6;
+    text-align: center;
+}
+.game{
+
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+    
+}
+.continer{
+    height: 70vh;
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(24, 23, 23, 0.1);
+    font-size: 8vmin;
+    color: #86A59C;
+    
+    
+}
+.resetbtn{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #333333;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: antiquewhite;
+    font-size: 5vmin;
+}
+.msg-continer{
+    height: 40vmin;
+
+}
+.hide{
+    display: none;
+}
+.newbtn{
+    border-radius: 1rem;
+    background-color: #333333;
+    color: aliceblue;
+}  */
+
+/* body{
+    background-color: #6D9DC5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up{
+    width: 550px;
+    height: 900px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+form label{
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+input{
+   
+    padding:7px ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+}
+
+select{
+    margin-left: 20px;
+}
+
+#signup{
+    border-radius: 20px;
+    width: 360px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #0A6847;
+    color: white;
+    
+}
+/* #show{
+    border-radius: 20px;
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color:plum;
+    
+} */
+/* table, th, td {
+    border: 1px solid;
+}
+table {
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+}
+.signup{
+    margin-left: 20px;
+
+}
+.login{
+    margin-left: 20px;
+  
+}  */
+
+body {
+    background-color: bisque;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    min-height: 2vh;
+}
+
+
+
+form input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+select {
+    border: none;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+form select {
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.msg {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: green;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+img{
+    max-width: 2rem;
+}
+
+i{
+    font-size: 1rem;
+}
+.from-to{
+
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0.5rem;
+
+}
